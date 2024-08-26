@@ -1,0 +1,58 @@
+/* Styling for Table Elements */
+td, th, table, tr {
+    border: 2px solid #444;
+    border-collapse: collapse;
+    padding: 12px;
+    text-align: left;
+}
+thead {
+    background-color: #333;
+    color: white;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styling for Main Container */
+.main {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* Styling for Button Container */
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+}
+
+/* Styling for Buttons */
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Active Button State */
+button:active {
+    background-color: #004085;
+    transform: scale(0.98);
+}
