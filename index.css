@@ -1,4 +1,4 @@
-/* Styling for Table Elements */
+
 td, th, table, tr {
     border: 2px solid #444;
     border-collapse: collapse;
@@ -13,14 +13,11 @@ tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Styling for Main Container */
 .main {
     margin: 50px auto;
     width: 80%;
     text-align: center;
 }
-
-/* Styling for Button Container */
 .main1 {
     display: flex;
     justify-content: center;
@@ -33,7 +30,6 @@ tbody tr:nth-child(even) {
     width: 80%;
 }
 
-/* Styling for Buttons */
 button {
     margin: 5px;
     padding: 10px 15px;
@@ -46,12 +42,12 @@ button {
     transition: background-color 0.3s ease;
 }
 
-/* Hover Effect for Buttons */
+
 button:hover {
     background-color: #0056b3;
 }
 
-/* Active Button State */
+
 button:active {
     background-color: #004085;
     transform: scale(0.98);
